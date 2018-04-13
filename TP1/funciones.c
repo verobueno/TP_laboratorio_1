@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "funciones.h"
 
-int ingresarOperando(int numero)
+int ingresarOperando(void)
 {
     int number;
     printf("Ingresar Operando: ");

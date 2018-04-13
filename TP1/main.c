@@ -5,10 +5,9 @@
 int main()
 {
     char seguir='s';
-    int opcion=0;
-    int a=0;
-    int b=0;
-    int numero=0;
+    int opcion;
+    int a;
+    int b;
     int flagA=0;
     int flagB=0;
 
@@ -20,14 +19,15 @@ int main()
         switch(opcion)
         {
         case 1:
-            a=ingresarOperando(numero);
+            a=ingresarOperando();
             flagA=1;
             break;
         case 2:
-            b=ingresarOperando(numero);
+            b=ingresarOperando();
             flagB=1;
             break;
         case 3:
+
             if (flagA ==1 && flagB==1)
             {
                 printf("La suma A y B es: %d\n",calcularSuma(a,b));
@@ -105,6 +105,7 @@ int main()
                 printf("Faltan datos para realizar la operacion");
             }
             break;
+
         case 9:
             seguir = 'n';
             break;

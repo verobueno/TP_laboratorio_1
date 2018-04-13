@@ -10,11 +10,13 @@
 */
 void mostrarMenu(int, int,int,int);
 
+
 /** \brief Funcion que permite al usuario ingresar un numero
-*\param recibe un entero
+*\param no recibe valor
 *\return retorna un entero con el valor ingresado por el usuario
 */
-int ingresarOperando(int);
+int ingresarOperando(void);
+
 
 /** \brief Funcion que suma dos numeros
 *\param recibe un entero primer sumando
