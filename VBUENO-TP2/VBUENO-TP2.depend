@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1526080759 source:c:\test\vbueno-tp2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
+1526080781 c:\test\vbueno-tp2\funciones.h
+
+1526082221 source:c:\test\vbueno-tp2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"funciones.h"
+
