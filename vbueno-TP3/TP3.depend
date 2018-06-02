@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1527875467 source:c:\test\tp3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+	"funciones.h"
+
+1527873828 c:\test\tp3\funciones.h
+	<stdio.h>
+	<stdlib.h>
+	<strings.h>
+
+1527904081 source:c:\test\tp3\funciones.c
+	"funciones.h"
+
+1527791706 c:\test\tp3\movies.h
+
